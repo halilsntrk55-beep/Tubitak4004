@@ -1,22 +1,15 @@
-# Jeoloji Proje Atölyesi — Canlı sürüm
+# Jeoloji Proje Atölyesi
 
-Etkinlik önerileri, ekip tercihleri, saha planları ve 16 bölümlük proje planı Firebase Realtime Database üzerinde saklanır. İndirme, dosya içe aktarma, kayıt birleştirme ve yerel kayıt akışları kaldırılmıştır.
+Linki açanlar e-posta ve şifre girmeden ortak Jeoloji çalışma alanına erişir. Etkinlikler, ekip tercihleri, saha planları ve 16 bölümlük proje metni aynı Firebase Realtime Database'de saklanır. İndirme, içe aktarma, yerel kayıt ve dosyayla birleştirme yoktur.
 
-## Açılış
+## Yayın
 
-Bu depoyu GitHub Pages veya Vercel gibi bir hizmette statik site olarak yayımlayın ve ana adresini açın. Aynı Firebase e-posta/şifre hesabıyla giriş yapılır. Sayfa HTTP/HTTPS üzerinden sunulmalıdır; dosyaya çift tıklayarak açılması desteklenmez.
+Depoyu statik site olarak yayımlayın. Giriş sayfası index.html dosyasıdır; app.js ve data.js aynı klasörde kalmalıdır. Dosyalar HTTP/HTTPS üzerinden sunulmalıdır.
 
-Veriler `egitim_ajandasi_v1/users/{uid}/jeoloji` yolundadır. Ajandanın `workspace` kaydı değişmez. Mevcut Firebase kuralları yalnızca sahibinin UID'sine izin verir; diğer öğretmenler kendi hesaplarıyla henüz erişemez.
+## Firebase
 
-## Davranış
+Ortak veri yolu: egitim_ajandasi_v1/users/XTvKgz2yCoNs3c5v7628aZGAHxs1/jeoloji
 
-- Başlangıçta 8 hazır etkinlik ve 16 bölüm yalnızca yeni çalışma alanı için eklenir.
-- Kayıtlar kaydetme düğmesiyle doğrudan Firebase'e yazılır.
-- Değişiklikler diğer açık cihazlarda anlık görünür.
-- Bağlantı yoksa kayıt yapılmaz; yazılmamış form içeriği ekranda korunur.
-- Aynı kayda eşzamanlı düzenleme yapılırsa sessizce üstüne yazılmaz, kullanıcıya bildirilir.
-- Proje metni ile etkinlik kartları ayrı verilerdir; birbirlerini otomatik yeniden yazmazlar.
+Yalnızca bu Jeoloji yolunda oturumsuz okuma/yazma kuralı gerekir. Bu erişim etkinleştirildiğinde bağlantıyı bilen ziyaretçiler kayıtları görebilir, ekleyebilir, düzenleyebilir ve silebilir. Eğitim Ajandası'nın workspace yolu kendi hesap korumasını sürdürür.
 
-## Kontrol
-
-JavaScript sözdizimi, Firebase oturumu, başlangıç kayıtları ve proje planının canlı kaydı tarayıcıda doğrulandı.
+Kayıt yazımı Firebase onayı geldikten sonra tamamlanır. Aynı kayda eşzamanlı değişiklikler sürüm kontrolüyle bildirilir; diğer cihazlardaki yenilikler anlık yansır.
