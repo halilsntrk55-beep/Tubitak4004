@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ünye BİLSEM · Proje Öneri Formu</title>
+<style>
+:root{--ink:#183931;--green:#205e4e;--paper:#f5f4ee;--line:#dce3dc;--muted:#63776f;--blue:#315f87}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,sans-serif}
+header{background:linear-gradient(120deg,#174d45,#1a456c);color:white;padding:30px max(5vw,20px)}
+header small{letter-spacing:2px;color:#d7e4dc}
+header h1{font-size:clamp(27px,4vw,42px);line-height:1.2;margin:10px 0}
+header p{max-width:850px;color:#e0ebe6;margin:0}
+.back{display:inline-block;margin-bottom:16px;color:white;text-decoration:none;border:1px solid #ffffff66;border-radius:8px;padding:7px 11px}
+main{max-width:1360px;margin:auto;padding:24px}
+.notice{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:white;border:1px solid var(--line);border-radius:10px;padding:13px 16px;margin-bottom:20px}
+.connection{color:var(--green);font-weight:700}.connection-off{color:#a54034}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:white;border-radius:8px;padding:9px 13px;color:var(--ink)}
+button:hover{background:#edf3ee}button:disabled{opacity:.55;cursor:wait}
+button.primary{background:var(--green);color:white;border-color:var(--green)}
+.status{min-height:28px;margin:12px 0;padding:8px 11px;border-radius:7px}
+.status.success{background:#e6f4ed;color:#205e4e}.status.warning{background:#fff4d8;color:#795b18}.status.error{background:#fff0ed;color:#a54034}.status.info{background:#edf3ff;color:#395d92}
+.section-heading{margin:32px 0 10px;padding-bottom:7px;color:#174d45;border-bottom:2px solid var(--line)}
+.form-card{background:white;border:1px solid var(--line);border-radius:11px;margin:10px 0;padding:0 15px}
+.form-card summary{cursor:pointer;font-size:17px;font-weight:700;padding:15px 3px}
+.field{display:block;font-weight:600;margin:10px 0 17px}
+textarea,input{font:inherit;color:var(--ink);background:white;border:1px solid #b7c8be;border-radius:7px;padding:10px;width:100%;margin-top:6px}
+textarea{min-height:180px;resize:vertical}
+.table-card{padding-bottom:12px}.add-row{margin:0 0 12px}
+.table-wrap{overflow-x:auto;max-width:100%}
+.entry-table{border-collapse:collapse;width:max-content;min-width:100%;margin:4px 0 12px}
+.entry-table th,.entry-table td{border:1px solid var(--line);padding:6px;vertical-align:top}
+.entry-table th{background:#edf3ee;text-align:left;font-size:13px;white-space:nowrap}
+.entry-table td input{min-width:145px;width:100%;margin:0;padding:8px;font-size:14px}
+.entry-table td input.fixed-cell{background:#f4f6f4;color:#485952;font-weight:700}
+.entry-table td:last-child{min-width:95px}
+.remove-row{font-size:13px;color:#9b3d34}
+@media(max-width:700px){main{padding:15px}.form-card{padding:0 10px}.entry-table td input{min-width:125px}.notice{align-items:flex-start}}
+</style>
+</head>
+<body>
+<header>
+<a class="back" href="./index.html">← Çalışma alanına dön</a>
+<small>ÜNYE BİLSEM · TÜBİTAK 4004</small>
+<h1>Proje Öneri Formu</h1>
+<p>Form başlıklarını ve tabloları ekipçe doldurun. Değişiklikler ortak alana kaydedilir ve diğer uzmanlara yansır.</p>
+</header>
+<main>
+<div class="notice"><span id="connection" class="connection">Ortak form yükleniyor…</span><span>Örnek metin veya örnek kayıt yok</span></div>
+<div id="status" class="status info" role="status"></div>
+<div id="sections"></div>
+<div class="toolbar"><button id="refresh" type="button" disabled>Güncel formu getir</button><button id="save" type="button" class="primary" disabled>Formu kaydet</button></div>
+</main>
+<script type="module" src="./proposal-form.js"></script>
+</body>
+</html>
