@@ -1,4 +1,3 @@
-export const PLAN_VERSION=2;
 export const PLAN_VERSION=3;
 export const DEFAULT=[
   {
