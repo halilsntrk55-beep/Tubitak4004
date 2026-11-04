@@ -1,4 +1,5 @@
 export const PLAN_VERSION=2;
+export const PLAN_VERSION=3;
 export const DEFAULT=[
   {
     "title": "PROJE ÖZETİ",
@@ -98,8 +99,7 @@ export const DEFAULT=[
   },
   {
     "title": "KURUM/KURULUŞ VE PROJE EKİBİ BİLGİLERİ",
-    "text": "",
-    "kind": "heading"
+    "text": ""
   },
   {
     "title": "Proje ile ilgili Taraflar",
@@ -108,6 +108,290 @@ export const DEFAULT=[
   {
     "title": "TÜBİTAK’tan Ayrılmış Personel",
     "text": ""
+  },
+  {
+    "title": "AYRINTILI BÜTÇE TABLOSU",
+    "text": "",
+    "kind": "heading"
+  },
+  {
+    "title": "Genel Bütçe",
+    "kind": "table",
+    "columns": [
+      "Sıra No",
+      "Bütçe Kalemi",
+      "Toplam Tutar"
+    ],
+    "rows": [
+      [
+        "1",
+        "Makina Teçhizat",
+        ""
+      ],
+      [
+        "2",
+        "Sarf Malzemesi",
+        ""
+      ],
+      [
+        "3",
+        "Hizmet Alımları",
+        ""
+      ],
+      [
+        "4",
+        "Personel Giderleri",
+        ""
+      ],
+      [
+        "5",
+        "Seyahat Giderleri",
+        ""
+      ]
+    ],
+    "fixedColumns": [
+      0,
+      1
+    ]
+  },
+  {
+    "title": "Makine-Teçhizat Listesi (06.1+06.2)",
+    "kind": "table",
+    "columns": [
+      "Sıra No",
+      "Harcama Kalemi Kodu",
+      "Harcama Kalemi",
+      "Adı",
+      "Miktarı",
+      "Birimi",
+      "Birim Fiyat",
+      "Tutar",
+      "Kullanım Gerekçesi",
+      "Açıklama"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "title": "Sarf Malzemesi Listesi (03.2)",
+    "kind": "table",
+    "columns": [
+      "Sıra No",
+      "Harcama Kalemi Kodu",
+      "Harcama Kalemi",
+      "Adı",
+      "Miktarı",
+      "Birimi",
+      "Birim Fiyat",
+      "Tutar",
+      "Kullanım Gerekçesi",
+      "Açıklama"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "title": "Hizmet Alımları (03.5+03.7)",
+    "kind": "table",
+    "columns": [
+      "Sıra No",
+      "Harcama Kalemi Kodu",
+      "Harcama Kalemi",
+      "Adı",
+      "Hizmet Alınacak Kuruluş",
+      "Tutar",
+      "Kullanım Gerekçesi",
+      "Açıklama"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "title": "Personel Giderleri",
+    "kind": "table",
+    "columns": [
+      "Sıra No",
+      "Harcama Kalemi Kodu",
+      "Harcama Kalemi",
+      "Tutar",
+      "Açıklama"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "title": "Seyahat Giderleri",
+    "kind": "table",
+    "columns": [
+      "Sıra No",
+      "Harcama Kalemi Kodu",
+      "Harcama Kalemi",
+      "Etkinlik Tarihi",
+      "Faaliyet Adı",
+      "Katılımcı Sayısı",
+      "Birim Fiyat",
+      "Toplam Tutar",
+      "Etkinlik Mekanı",
+      "Etkinlik İl",
+      "Açıklama"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "title": "ETKİNLİK PROGRAMI",
+    "text": "",
+    "kind": "heading"
+  },
+  {
+    "title": "Etkinlik Programı",
+    "kind": "table",
+    "columns": [
+      "Sıra No",
+      "Etkinlik Dönemi Adı",
+      "Etkinlik Adı / Faaliyet",
+      "Etkinlik Tarihi",
+      "Başlama Saati",
+      "Bitiş Saati",
+      "Hedef Kitle",
+      "Katılımcı Sayısı",
+      "Görevli Personel",
+      "Etkinlik Mekanı",
+      "Etkinlik İl",
+      "Etkinlik Açıklaması"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "title": "HEDEF KİTLE BİLGİLERİ",
+    "text": "",
+    "kind": "heading"
+  },
+  {
+    "title": "Hedef Kitle Bilgileri",
+    "kind": "table",
+    "columns": [
+      "Sıra No",
+      "Proje Hedef Kitle",
+      "Hedef Kitle Tanımı",
+      "Katılımcı Sayısı",
+      "Açıklama"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "title": "PROJE EKİBİ BİLGİLERİ",
+    "text": "",
+    "kind": "heading"
+  },
+  {
+    "title": "Proje Ekibi Bilgileri",
+    "kind": "table",
+    "columns": [
+      "Sıra No",
+      "Ünvanı",
+      "Adı",
+      "Soyadı",
+      "Projedeki Görevi",
+      "İdari Görev",
+      "Telefon",
+      "E-posta Adresi",
+      "Projeye Katkı Oranı",
+      "Katkı Yapılan Bölümler",
+      "Projedeki Sorumluluğu"
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
   }
 ];
 export const SEEDS=[
