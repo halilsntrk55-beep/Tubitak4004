@@ -1,398 +1,74 @@
-export const PLAN_VERSION=3;
 export const DEFAULT=[
   {
-    "title": "PROJE ÖZETİ",
-    "text": "",
-    "kind": "heading"
+    "title": "1. PROJE BİLGİLERİ",
+    "text": "Alan | Açıklama\nProje adı | Taşların İzinde Ünye’de Jeoloji Keşfi (öneri)\nProje yürütücüsü | Belirlenecek\nYürütücü kurum/kuruluş | Ünye BİLSEM, Ordu (resmî kurum unvanı başvuru öncesinde doğrulanacak)\nTematik çağrı alanı | Jeoloji ve yer bilimleri odağı; resmî çağrı alanı güncel çağrıya göre seçilecek\nUygulama yeri ve tarih | Ünye / Ordu. Atölye mekânları, saha rotaları ve uygulama tarihleri belirlenecek.\n\n"
   },
   {
-    "title": "Proje Başlığı (Türkçe)",
-    "text": ""
+    "title": "2. PROJE ÖZETİ",
+    "text": "Proje, Ordu Ünye BİLSEM’de eğitim alan ortaokul ve lise düzeyindeki özel yetenekli öğrencilerin jeolojik süreçleri saha gözlemleri, deneyler ve disiplinler arası atölyeler aracılığıyla araştırmalarını amaçlamaktadır. Kayaçların özellikleri, aşınma ve birikme süreçleri, yer şekilleri, jeolojik zaman ve jeolojik miras kavramları öğrencilerin çevrelerine ilişkin sorularıyla ilişkilendirilecektir. Saha alanları jeoloji uzmanının değerlendirmesi ve güvenlik incelemesi sonrasında seçilecektir.\n\nÖğretmenler kendi branş ve deneyimleri doğrultusunda atölye önerileri sunacak; görevler gönüllü tercihler, uzmanlık, zaman uygunluğu ve programın ihtiyaçları birlikte değerlendirilerek belirlenecektir. Ortaokul grubunda gözlem ve sınıflandırma, lise grubunda ölçüm ve kanıta dayalı yorumlama öne çıkarılacaktır. Saha günlükleri, öğrenci ürünleri ve uygulama öncesi/sonrası değerlendirmeler yoluyla öğrenme gelişimi izlenecektir. Katılımcı sayısı, süre ve bütçe ekip planlamasıyla kesinleştirilecektir.\n\n"
   },
   {
-    "title": "Proje Özeti (Türkçe)",
-    "text": ""
+    "title": "3. PROJENİN AMACI",
+    "text": "Öğrencilerin yakın çevrelerindeki jeolojik oluşumları bilimsel gözlem ve araştırma yoluyla anlamalarını, bulgularını kanıtlara dayalı açıklamalarla sunmalarını ve jeolojik mirasın korunmasına yönelik farkındalık geliştirmelerini sağlamak amaçlanmaktadır.\n\n• Kayaç örneklerini gözlenebilir özelliklerine göre karşılaştırma ve sınıflandırma.\n\n• Aşınma, taşınma ve birikme süreçlerini deney ve saha bulgularıyla ilişkilendirme.\n\n• Araştırma sorusu oluşturma, sistematik gözlem kaydetme ve verilerden çıkarım yapma.\n\n• Jeolojik gözlemleri çizim, harita veya model aracılığıyla açıklama.\n\n• Doğal alanlarda sorumlu davranma ve gözlem ile yorum arasındaki farkı ayırt etme.\n\n"
   },
   {
-    "title": "Anahtar Kelimeler (Türkçe)",
-    "text": ""
+    "title": "4. PROJENİN GEREKÇESİ / İHTİYAÇ ANALİZİ",
+    "text": "Jeolojik süreçlerin bir kısmı uzun zaman ölçeklerinde gerçekleştiği için yalnızca sözel açıklamalarla anlaşılması güç olabilir. Gözlem yapılabilen örnekler ve kontrollü modeller, öğrencilerin soyut kavramları somut kanıtlarla ilişkilendirmesine imkân sağlayabilir. Proje, özel yetenekli öğrencilerin farklı hız ve derinliklerde araştırma yapabilecekleri açık uçlu görevler üzerine kurulacaktır.\n\nÜnye BİLSEM öğrencilerine ilişkin ihtiyaç analizi henüz yapılmamıştır. Başvuru öncesinde kısa öğrenci ilgi ve ön bilgi formu, öğretmen görüşleri ve mevcut eğitim olanaklarının değerlendirilmesiyle ihtiyaçlar belgelenecektir. Yerel saha alanlarının eğitsel uygunluğu uzman incelemesiyle doğrulanacak; gerekçe bölümü bu bulgularla güçlendirilecektir.\n\n"
   },
   {
-    "title": "Project Title (English)",
-    "text": ""
+    "title": "5. HEDEF KİTLE",
+    "text": "Hedef kitle, Ordu ili Ünye ilçesindeki BİLSEM’de eğitim alan ortaokul ve lise düzeyindeki özel yetenekli öğrencilerdir. Katılımcı sayısı, sınıf aralıkları ve grupların büyüklüğü; güncel çağrı koşulları, saha güvenliği ve eğitmen kapasitesi dikkate alınarak belirlenecektir. Katılım ölçütleri ve seçim yöntemi önceden açıklanacaktır.\n\nOrtaokul ve lise öğrencileri için ortak temel etkinlikler yanında farklılaştırılmış görevler hazırlanacaktır. Öğrencilerin erişilebilirlik ve destek ihtiyaçları planlamaya yansıtılacaktır. Öğretmenler bu tasarımda atölye yürütücüsü ve rehber rolündedir; öğretmenlerin ayrıca katılımcı hedef grup olması henüz planlanmamıştır.\n\n"
   },
   {
-    "title": "Project Summary (English)",
-    "text": ""
+    "title": "6. PROJENİN İÇERİĞİ VE KAPSAMI",
+    "text": "İçerik; kayaçların gözlenebilir özellikleri, kayaç döngüsü, jeolojik zaman, aşınma ve birikme, arazi gözlemi, haritalama ve jeolojik mirasın korunması eksenlerinde yapılandırılacaktır. Fosiller ve doğal tehlikeler, uygun örnek ve uzman desteği sağlanması durumunda ele alınabilecek ek temalardır. Belirli bir yerel oluşumun veya fosil alanının varlığı bu aşamada varsayılmamaktadır.\n\nÖğrenci ürünleri; saha günlüğü, karşılaştırma tablosu, açıklamalı arazi çizimi, basit gözlem haritası ve grup sunumundan oluşabilir. Nihai ürünler seçilecek atölyelere göre kesinleştirilecektir.\n\n"
   },
   {
-    "title": "Keywords (English)",
-    "text": ""
+    "title": "7. YÖNTEM VE UYGULAMA YAKLAŞIMI",
+    "text": "Etkinlikler soru oluşturma, tahmin yürütme, gözlem veya deney yapma, kanıtları değerlendirme ve sonuçları paylaşma sırasıyla yürütülecektir. Saha öncesinde örnek inceleme ve kayıt tutma çalışmaları yapılacak; sahada küçük gruplarla gözlem gerçekleştirilecek; dönüşte veriler karşılaştırılarak açıklamalar geliştirilecektir. Modellerin gerçek jeolojik süreçleri hangi yönlerden temsil ettiği ve hangi yönlerden sınırlı kaldığı tartışılacaktır.\n\nÖğretmenlerden branş, görev tercihi ve atölye önerisi toplanacaktır. Atölyelerin jeolojiyle ilişkisi, öğrenci etkinliği, yaş düzeyine uygunluğu, uygulanabilirliği ve ölçülebilir çıktıları ortak bir değerlendirme üzerinden incelenecektir. Branşlara önceden görev atanmayacak; gerekli alan uzmanlığı ve güvenlik sorumlulukları ayrıca sağlanacaktır.\n\n"
   },
   {
-    "title": "PROJE İLE İLGİLİ GENEL BİLGİLER",
-    "text": "",
-    "kind": "heading"
+    "title": "8. ÖLÇME VE DEĞERLENDİRME",
+    "text": "Araç | Uygulama | İzlenecek gösterge\nÖn ve son değerlendirme | Uygulama öncesi ve sonrası benzer kazanımları ölçen kısa sorular | Kavramları açıklama ve kanıtla ilişkilendirmedeki değişim\nSaha günlüğü | Gözlem, çizim, soru ve çıkarım kayıtları | Gözlem doğruluğu; gözlem ve yorumun ayrılması\nÜrün değerlendirme rubriği | Harita, model veya grup sunumu | Bilimsel doğruluk, kanıt kullanımı ve açıklama açıklığı\nÖz değerlendirme ve görüş formu | Etkinlik sonu kısa yansıtma | Öğrenilenler, güçlükler ve yeni araştırma soruları\n\nAraçlar yaş gruplarına göre uyarlanacak ve uygulama öncesi uzman görüşüyle gözden geçirilecektir. Başarı eşikleri pilot değerlendirme sonrasında belirlenecek; henüz ölçülmemiş kazanımlar gerçekleşmiş gibi raporlanmayacaktır. Öğrenci verileri gerekli izinler kapsamında, kimlik bilgileri korunarak değerlendirilecektir.\n\n"
   },
   {
-    "title": "Amaç",
-    "text": ""
+    "title": "9. YAYGIN ETKİ",
+    "text": "Öğrenci ürünlerinin kurum içinde paylaşılacağı bir sergi veya sunum oturumu planlanmaktadır. Öğretmenlerin geliştirdiği etkinlik yönergeleri, gerekli izinler alınarak diğer eğitimcilerin kullanabileceği bir etkinlik dosyasında bir araya getirilebilir. Yaygınlaştırmanın gerçekleşmesi; paylaşılan ürün sayısı, erişilen öğrenci ve öğretmen sayısı ve alınan geri bildirimlerle izlenecektir. Yayın kanalları ve sayısal hedefler ekip tarafından belirlenecektir.\n\n"
   },
   {
-    "title": "Yararlanılan (İncelenen) Kaynaklar",
-    "text": ""
+    "title": "10. PROJENİN SÜRDÜRÜLEBİLİRLİĞİ",
+    "text": "Yeniden kullanılabilir deney düzenekleri, gözlem formları ve öğretmen yönergeleri kurumda saklanacaktır. Uygun etkinlikler BİLSEM’in sonraki eğitim çalışmalarına uyarlanabilecek; saha rotaları her kullanım öncesinde yeniden güvenlik ve erişim açısından değerlendirilecektir. Proje sonrası takip çalışmasının tarihi ve sorumlusu ekip planlamasında belirlenecektir.\n\n"
   },
   {
-    "title": "Yararlanılan (İncelenen) Projeler",
-    "text": ""
+    "title": "11. ETKİNLİK PLANI",
+    "text": "Aşağıdaki etkinlikler öğretmen tercihine açık önerilerdir. Süreler tasarım içindir; kesin program, görev paylaşımı ve saha koşulları netleşince düzenlenecektir.\n\nNo | Etkinlik adı | Amaç | Yöntem | Süre | Sorumlu\n1 | Kayaç dedektifleri | Özellikleri karşılaştırma | Örnek inceleme ve sınıflandırma | 60–90 dk | Belirlenecek\n2 | Suyun şekillendirdiği yeryüzü | Aşınma ve birikmeyi açıklama | Kontrollü model deneyi | 60–90 dk | Belirlenecek\n3 | Arazinin hikâyesi | Saha kanıtı toplama | Uzman eşliğinde gözlem ve günlük | Rota sonrası belirlenecek | Belirlenecek\n4 | Jeoloji gözlem haritam | Veriyi mekânla ilişkilendirme | Çizim veya dijital haritalama | 60–90 dk | Belirlenecek\n5 | Kanıttan açıklamaya | Bulguları savunma ve paylaşma | Grup ürünü ve bilimsel sunum | 60–90 dk | Belirlenecek\n\n"
   },
   {
-    "title": "YÖNTEM",
-    "text": "",
-    "kind": "heading"
+    "title": "12. PROJE EKİBİ",
+    "text": "Ad soyad | Görevi | Kurumu | Projede üstleneceği görev\nBelirlenecek | Proje yürütücüsü | Belirlenecek | Başvuru, koordinasyon ve raporlama\nBelirlenecek | Jeoloji alan uzmanı | Belirlenecek | Bilimsel içerik, saha uygunluğu ve eğitmen desteği\nTercih sonrası belirlenecek | Atölye yürütücüsü / eğitmen | Belirlenecek | Atölye tasarımı ve uygulaması\nTercih sonrası belirlenecek | Ölçme ve değerlendirme sorumlusu | Belirlenecek | Araçların hazırlanması ve sonuçların değerlendirilmesi\nBelirlenecek | Saha ve organizasyon sorumlusu | Belirlenecek | İzinler, ulaşım, güvenlik koordinasyonu ve kayıtlar\n\nBu görevler çalışma organizasyonu önerisidir; resmî proje personeli unvanları ve uygunluk şartları güncel çağrıya göre düzenlenecektir. Öğretmen tercihi doğrudan görevlendirme anlamına gelmez; görevler ekip görüşmesiyle kesinleştirilecektir.\n\n"
   },
   {
-    "title": "Hedef Kitle",
-    "text": ""
+    "title": "13. İŞ-ZAMAN ÇİZELGESİ",
+    "text": "Faaliyet | Başlangıç | Bitiş | Açıklama\nİhtiyaç analizi ve öğretmen tercihleri | Belirlenecek | Belirlenecek | Öğrenci ihtiyaçları, branşlar ve görev önerileri\nAtölye ve saha tasarımı | Belirlenecek | Belirlenecek | Uzman incelemesi, rota ve malzeme planı\nİzinler ve uygulama hazırlığı | Belirlenecek | Belirlenecek | Veli izinleri, erişilebilirlik, ulaşım ve güvenlik\nEtkinliklerin uygulanması | Belirlenecek | Belirlenecek | Ön değerlendirme, atölyeler, saha ve son değerlendirme\nRaporlama ve paylaşım | Belirlenecek | Belirlenecek | Öğrenci ürünleri, sonuçlar ve yaygınlaştırma\n\n"
   },
   {
-    "title": "Pilot Çalışma",
-    "text": ""
+    "title": "14. TAHMİNİ BÜTÇE",
+    "text": "Gider kalemi | Tutar TL | Açıklama\nAtölye sarf ve deney malzemeleri | Belirlenecek | Etkinlik listesi ve miktarlar kesinleşince fiyatlandırılacak\nSaha ulaşımı | Belirlenecek | Rota, kişi sayısı ve araç teklifine bağlı\nGözlem ve güvenlik malzemeleri | Belirlenecek | Mevcut envanter ve saha ihtiyaçlarına göre\nBaskı ve eğitim materyalleri | Belirlenecek | Günlük, çalışma formu ve ürün paylaşımı\nDiğer uygun giderler | Belirlenecek | Güncel çağrıda desteklenebilirliği doğrulanarak eklenecek\n\nBütçe tutarları, katılımcı sayısı ve etkinlik programı belirlenip fiyat teklifleri alındıktan sonra hesaplanacaktır. Bu tabloda giderlerin destek kapsamına uygunluğu henüz doğrulanmış değildir.\n\n"
   },
   {
-    "title": "Ölçme ve Değerlendirme",
-    "text": ""
+    "title": "15. RİSKLER VE ALINACAK ÖNLEMLER",
+    "text": "Olumsuz hava ve saha erişim sorunu: Uygulama öncesi koşullar kontrol edilecek; uygun olmayan saha etkinliği ertelenecek veya eşdeğer kapalı alan çalışmasıyla değiştirilecektir. Güvensiz şevler, kıyı kesimleri ve izinsiz çalışma alanları rotaya alınmayacaktır.\n\nÖğrenci güvenliği: Rota için ön risk değerlendirmesi yapılacak; grup takibi, acil iletişim, gerekli ilk yardım hazırlığı ve sorumlular yazılı biçimde belirlenecektir. Veli izinleri tamamlanacaktır. Numune alma yalnızca izin ve alanın koruma koşulları uygunsa yapılacak; gözlem ve fotoğraflama öncelikli olacaktır.\n\nEğitmen değişikliği, malzeme eksikliği ve yaş grupları arasındaki farklar: Yedek eğitmen ve alternatif etkinlik planı hazırlanacak, malzemeler önceden kontrol edilecek, görevler yaş ve hazırbulunuşluğa göre farklılaştırılacaktır.\n\n"
   },
   {
-    "title": "Etkinlikte Kullanılacak Yöntemler ve Teknikler",
-    "text": ""
-  },
-  {
-    "title": "Projenin Yaygın Etkisi",
-    "text": ""
-  },
-  {
-    "title": "PROJENİN YAPILABİLİRLİĞİ",
-    "text": "",
-    "kind": "heading"
-  },
-  {
-    "title": "Projenin Yapılabilirliği",
-    "text": ""
-  },
-  {
-    "title": "Proje Planı ve Çalışma Takvimi",
-    "text": ""
-  },
-  {
-    "title": "Tablo 5.1: Çalışma Takvimi",
-    "text": ""
-  },
-  {
-    "title": "Projenin Planlandığı gibi Yürütülememesine Karşı Alınmış Önlemler",
-    "text": ""
-  },
-  {
-    "title": "Tablo 5.2: Olası Riskler ve Alınacak Tedbirler",
-    "text": ""
-  },
-  {
-    "title": "KURUM/KURULUŞ VE PROJE EKİBİ BİLGİLERİ",
-    "text": ""
-  },
-  {
-    "title": "Proje ile ilgili Taraflar",
-    "text": ""
-  },
-  {
-    "title": "TÜBİTAK’tan Ayrılmış Personel",
-    "text": ""
-  },
-  {
-    "title": "AYRINTILI BÜTÇE TABLOSU",
-    "text": "",
-    "kind": "heading"
-  },
-  {
-    "title": "Genel Bütçe",
-    "kind": "table",
-    "columns": [
-      "Sıra No",
-      "Bütçe Kalemi",
-      "Toplam Tutar"
-    ],
-    "rows": [
-      [
-        "1",
-        "Makina Teçhizat",
-        ""
-      ],
-      [
-        "2",
-        "Sarf Malzemesi",
-        ""
-      ],
-      [
-        "3",
-        "Hizmet Alımları",
-        ""
-      ],
-      [
-        "4",
-        "Personel Giderleri",
-        ""
-      ],
-      [
-        "5",
-        "Seyahat Giderleri",
-        ""
-      ]
-    ],
-    "fixedColumns": [
-      0,
-      1
-    ]
-  },
-  {
-    "title": "Makine-Teçhizat Listesi (06.1+06.2)",
-    "kind": "table",
-    "columns": [
-      "Sıra No",
-      "Harcama Kalemi Kodu",
-      "Harcama Kalemi",
-      "Adı",
-      "Miktarı",
-      "Birimi",
-      "Birim Fiyat",
-      "Tutar",
-      "Kullanım Gerekçesi",
-      "Açıklama"
-    ],
-    "rows": [
-      [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    ]
-  },
-  {
-    "title": "Sarf Malzemesi Listesi (03.2)",
-    "kind": "table",
-    "columns": [
-      "Sıra No",
-      "Harcama Kalemi Kodu",
-      "Harcama Kalemi",
-      "Adı",
-      "Miktarı",
-      "Birimi",
-      "Birim Fiyat",
-      "Tutar",
-      "Kullanım Gerekçesi",
-      "Açıklama"
-    ],
-    "rows": [
-      [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    ]
-  },
-  {
-    "title": "Hizmet Alımları (03.5+03.7)",
-    "kind": "table",
-    "columns": [
-      "Sıra No",
-      "Harcama Kalemi Kodu",
-      "Harcama Kalemi",
-      "Adı",
-      "Hizmet Alınacak Kuruluş",
-      "Tutar",
-      "Kullanım Gerekçesi",
-      "Açıklama"
-    ],
-    "rows": [
-      [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    ]
-  },
-  {
-    "title": "Personel Giderleri",
-    "kind": "table",
-    "columns": [
-      "Sıra No",
-      "Harcama Kalemi Kodu",
-      "Harcama Kalemi",
-      "Tutar",
-      "Açıklama"
-    ],
-    "rows": [
-      [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    ]
-  },
-  {
-    "title": "Seyahat Giderleri",
-    "kind": "table",
-    "columns": [
-      "Sıra No",
-      "Harcama Kalemi Kodu",
-      "Harcama Kalemi",
-      "Etkinlik Tarihi",
-      "Faaliyet Adı",
-      "Katılımcı Sayısı",
-      "Birim Fiyat",
-      "Toplam Tutar",
-      "Etkinlik Mekanı",
-      "Etkinlik İl",
-      "Açıklama"
-    ],
-    "rows": [
-      [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    ]
-  },
-  {
-    "title": "ETKİNLİK PROGRAMI",
-    "text": "",
-    "kind": "heading"
-  },
-  {
-    "title": "Etkinlik Programı",
-    "kind": "table",
-    "columns": [
-      "Sıra No",
-      "Etkinlik Dönemi Adı",
-      "Etkinlik Adı / Faaliyet",
-      "Etkinlik Tarihi",
-      "Başlama Saati",
-      "Bitiş Saati",
-      "Hedef Kitle",
-      "Katılımcı Sayısı",
-      "Görevli Personel",
-      "Etkinlik Mekanı",
-      "Etkinlik İl",
-      "Etkinlik Açıklaması"
-    ],
-    "rows": [
-      [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    ]
-  },
-  {
-    "title": "HEDEF KİTLE BİLGİLERİ",
-    "text": "",
-    "kind": "heading"
-  },
-  {
-    "title": "Hedef Kitle Bilgileri",
-    "kind": "table",
-    "columns": [
-      "Sıra No",
-      "Proje Hedef Kitle",
-      "Hedef Kitle Tanımı",
-      "Katılımcı Sayısı",
-      "Açıklama"
-    ],
-    "rows": [
-      [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    ]
-  },
-  {
-    "title": "PROJE EKİBİ BİLGİLERİ",
-    "text": "",
-    "kind": "heading"
-  },
-  {
-    "title": "Proje Ekibi Bilgileri",
-    "kind": "table",
-    "columns": [
-      "Sıra No",
-      "Ünvanı",
-      "Adı",
-      "Soyadı",
-      "Projedeki Görevi",
-      "İdari Görev",
-      "Telefon",
-      "E-posta Adresi",
-      "Projeye Katkı Oranı",
-      "Katkı Yapılan Bölümler",
-      "Projedeki Sorumluluğu"
-    ],
-    "rows": [
-      [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    ]
+    "title": "16. DİĞER NOTLAR",
+    "text": "Öğretmenlerin tercih bildiriminde kullanılması önerilen alanlar aşağıdadır. Aynı öğretmen birden fazla görev tercih edebilir ve yeni bir atölye önerebilir. Görevler ve atölyeler bu aşamada kesinleştirilmemiştir.\n\nTercih alanı | Öğretmenin dolduracağı bilgi\nAd soyad / kurum / branş | ................................................................\nBirinci ve ikinci görev tercihi | Atölye yürütme, yardımcı eğitmenlik, ölçme-değerlendirme, saha organizasyonu, materyal geliştirme, yaygınlaştırma veya başka öneri\nAtölye tercihi | Önerilen etkinliklerden seçim veya yeni atölye önerisi\nAtölye adı ve jeoloji bağlantısı | ................................................................\nHedef yaş grubu ve kazanım | Ortaokul / lise / farklılaştırılmış iki grup; beklenen öğrenci çıktısı\nYöntem, süre ve malzemeler | ................................................................\nİş birliği ve uygunluk | Birlikte çalışılabilecek branşlar, uzman desteği ve uygun tarihler\n\nBaşvuru öncesinde kesinleştirilecekler: resmî kurum unvanı, yürütücü ve ekip, katılımcı sayısı ve seçimi, ihtiyaç analizi bulguları, saha rotaları, uygulama tarihleri, atölye ayrıntıları, izinler, bütçe ve ölçme araçları.\n\nNot: Bu belge proje geliştirme amacıyla hazırlanmış çalışma şablonudur. Yeni TÜBİTAK 4004 çağrı metni yayımlandığında alanlar güncel çağrı koşullarına göre kontrol edilmelidir.\n\n"
   }
 ];
+export const defs={
+activity:{title:'Etkinlik önerini oluştur',list:'Etkinlik planı',fields:[['name','Etkinlik adı','text',true],['teacher','Öğretmen adı soyadı','text',true],['branch','Branş','text',true],['group','Hedef grup','select',true,['Ortaokul','Lise','Her iki grup için farklılaştırılmış']],['goal','Amaç ve öğrenci kazanımları','textarea',true],['geology','Jeolojiyle ilişkisi','textarea',true],['method','Yöntem ve uygulama adımları','textarea',true],['duration','Süre (dakika)','number',false],['materials','Malzeme ve yaklaşık bütçe ihtiyacı','textarea',false],['assessment','Öğrenme nasıl değerlendirilecek?','textarea',false],['support','İş birliği yapılacak branşlar / uzman desteği','textarea',false]]},
+team:{title:'Ekip ve görev tercihini belirt',list:'Ekip tercihleri',fields:[['teacher','Ad soyad','text',true],['branch','Branş','text',true],['institution','Kurum','text',true],['role','Birinci görev tercihi','select',true,['Atölye yürütücülüğü','Yardımcı eğitmenlik','Ölçme ve değerlendirme','Saha ve organizasyon','Materyal geliştirme','Yaygınlaştırma ve raporlama','Koordinasyon desteği','Diğer']],['second','İkinci görev tercihi / diğer görev açıklaması','text',false],['workshop','Yürütmek veya desteklemek istediğim atölye','textarea',false],['experience','İlgili deneyim ve katkım','textarea',false],['availability','Uygun olduğum tarihler / süreler','text',false],['notes','İş birliği ve destek ihtiyacı','textarea',false]]},
+field:{title:'Saha planı öner',list:'Saha planları',fields:[['name','Saha / rota adı','text',true],['teacher','Planı öneren öğretmen','text',true],['location','Yer ve rota açıklaması','textarea',true],['goal','Jeolojik gözlem amacı','textarea',true],['group','Hedef grup','select',true,['Ortaokul','Lise','Her iki grup']],['date','Önerilen tarih','date',false],['duration','Süre ve ulaşım planı','textarea',false],['expert','Gerekli alan uzmanı / rehber desteği','text',false],['permission','İzin ve erişim durumu','select',true,['Henüz değerlendirilmedi','İzin araştırılıyor','İzin gereksinimi belirlendi','İzin alındı']],['risks','Riskler, erişilebilirlik ve önlemler','textarea',true],['alternative','Olumsuz hava / erişim için alternatif','textarea',true],['materials','Malzemeler ve öğrenci çıktıları','textarea',false]]}
+};
 export const SEEDS=[
   {
     "id": "hazir-etkinlik-1",
